@@ -1,0 +1,52 @@
+*::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+$nav-color: #fff;
+$body-color: #777;
+@mixin style {
+  display: inline;
+}
+@mixin position {
+  position: absolute;
+  left: 0;
+}
+
+html {
+  font-size: 62.5%; // 16px 1rem = 10px
+}
+.navigation {
+  overflow: hidden;
+  background-color: $nav-color;
+  font-size: 2rem;
+  ul {
+    @include style;
+    li {
+      @include style;
+    }
+  }
+  .form {
+    @include style;
+  }
+}
+body {
+  background-color: rgba(135, 201, 231, 0.5);
+  p {
+    font-size: 1rem;
+  }
+}
+.checkmark {
+  display: inline-block;
+}
+
+footer {
+  position: absolute;
+}
+.container__contact-box {
+  .filed {
+    width: 100%;
+    padding: 0.5rem, 1rem;
+  }
+}

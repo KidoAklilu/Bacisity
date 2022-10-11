@@ -7,7 +7,7 @@ const port = 3000;
 
 // Static Files
 app.use(express.static("public"));
-app.use("/scss", express.static(__dirname + "public/scss"));
+app.use("/css", express.static(__dirname + "./public/css"));
 
 // Set Templating Engine
 app.use(expressLayouts);

@@ -1,0 +1,34 @@
+*::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+
+.navigation {
+  overflow: hidden;
+  background-color: #fff;
+  font-size: 2rem; }
+  .navigation ul {
+    display: inline; }
+    .navigation ul li {
+      display: inline; }
+  .navigation .form {
+    display: inline; }
+
+body {
+  background-color: rgba(135, 201, 231, 0.5); }
+  body p {
+    font-size: 1rem; }
+
+.checkmark {
+  display: inline-block; }
+
+footer {
+  position: absolute; }
+
+.container__contact-box .filed {
+  width: 100%;
+  padding: 0.5rem, 1rem; }
